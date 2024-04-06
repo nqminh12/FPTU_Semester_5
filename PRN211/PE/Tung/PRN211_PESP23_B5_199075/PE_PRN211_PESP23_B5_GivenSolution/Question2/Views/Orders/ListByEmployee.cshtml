@@ -1,0 +1,63 @@
+﻿@using Question2.Models;
+@{
+}
+
+<style>
+    .mButton {
+        margin-bottom: 15px;
+    }
+    /* Định nghĩa kiểu cho bảng có class là table-condensed */
+    .table-condensed {
+        border-collapse: collapse; /* Gộp đường viền của ô */
+    }
+
+        .table-condensed th,
+        .table-condensed td {
+            padding: 5px; /* Khoảng cách bên trong ô */
+            border: 1px solid #000; /* Đường viền của ô */
+        }
+
+</style>
+<div style="display: flex; width: 100%;">
+    <div style="width:30%">
+        <h1>List Employee</h1>
+        @foreach (Employee e in Model)
+        {
+            <div class="mButton">
+                <a href="">@(e.FirstName + " " + e.LastName)</a>
+                <br />
+            </div>
+        }
+    </div>
+
+    <div style="width:70%">
+        <h1>List of Orders</h1>
+        <table class="table-condensed table">
+            <thead>
+                <tr>
+                    <th>OrderDate</th>
+                    <th>RequiredDate</th>
+                    <th>ShippedDate</th>
+                    <th>Freight</th>
+                    <th>Employee</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Order o in ViewBag.Orders)
+                {
+                    <tr>
+                        <td>@o.OrderDate</td>
+                        <td>@o.RequiredDate</td>
+                        <td>@o.ShippedDate</td>
+                        <td>@(string.Format("{0:0.00}", o.Freight))</td>
+                        <td>@(o.Employee.FirstName + " " + o.Employee.LastName)</td>
+                        <td>
+                            <a href="Details/@o.OrderId">Details</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

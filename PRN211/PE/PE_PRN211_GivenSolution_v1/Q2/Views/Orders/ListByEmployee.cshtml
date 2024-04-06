@@ -1,0 +1,77 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using Q2.Models;
+@model List<Order>
+<style>
+    .father{
+        display:grid;
+        grid-template-columns: 30% 70%;
+    }
+    .father div{
+        padding: 30px;
+    }
+
+        .father div a {
+            padding-bottom: 30px;
+            color: blue
+        }
+
+    .table-style {
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid #ccc;
+    }
+
+        .table-style th, .table-style td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .table-style th {
+            background-color: #f2f2f2;
+        }
+
+        /* Optional styles for even and odd rows (zebra striping) */
+        .table-style tr:nth-child(even) {
+            background-color: #f5f5f5;
+        }
+        
+
+
+</style>
+<div class="father">
+    <div>
+        <h1>Employees</h1>
+        @foreach (Employee p in ViewBag.Employees)
+        {
+            <a href="@Url.Action("ListByEmployee", "Orders", new{id = p.EmployeeId})">@p.FirstName @p.LastName</a>
+
+            <br />
+        }
+    </div>
+    <div style="border-left: 1px solid black">
+        <h1>List of Orders</h1>
+        <table class="table-style">
+            <tr>
+                <th>OrderDate</th>
+                <th>RequiredDate</th>
+                <th>ShippedDate</th>
+                <th>Freight</th>
+                <th>Employee</th>
+                <th>Action</th>
+            </tr>
+            @foreach(Order o in Model)
+            {
+                <tr>
+                    <td>@o.OrderDate</td>
+                    <td>@o.RequiredDate</td>
+                    <td>@o.ShippedDate</td>
+                    <td>@o.Freight</td>
+                    <td>@o.Employee.FirstName @o.Employee.LastName</td>
+                    <td><a href="@Url.Action("Details", "Orders", new{id = o.OrderId})">Details</a></td>
+
+                </tr>
+            }
+        </table>
+    </div>
+</div>

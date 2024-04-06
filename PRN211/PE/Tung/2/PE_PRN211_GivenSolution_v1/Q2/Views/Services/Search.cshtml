@@ -1,0 +1,57 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using Q2.Models
+@model List<Room>
+
+<form asp-controller="Services" asp-action="Search" method="post">
+    Room Title <input type="text" name="room" value="@ViewBag.searchRoom" /></br>
+    Month:<input type="text" name="month" value="@ViewBag.searchMonth" /></br>
+    <button type="submit">Search</button>
+</form>
+@{
+    byte? searchMonthByte = null;
+    if (byte.TryParse((string)ViewBag.searchMonth, out byte result))
+    {
+        searchMonthByte = result;
+    }
+}
+
+<h1>List of services</h1>
+
+<table border="1">
+    <tr>
+        <td>RoomTitle</td>
+        <td>FeeType</td>
+        <td>Month</td>
+        <td>Year</td>
+        <td>Amount</td>
+        <td></td>
+    </tr>
+
+    @foreach (Room r in Model)
+    {
+        foreach (Service s in r.Services)
+        {
+            if (s.Month == searchMonthByte || ViewBag.searchMonth == null || searchMonthByte == null)
+            {
+                <tr>
+                    <td>@r.Title</td>
+                    <td>@s.FeeType</td>
+                    <td>@s.Month</td>
+                    <td>@s.Year</td>
+                    <td>@s.Amount</td>
+                    <td>
+                        @if (s.PaymentDate == null && s.Employee == null)
+                        {
+                            @:Unpaid
+                        }
+                        else
+                        {
+                            @:The service has been paid. Employee: @s.EmployeeNavigation?.Name
+                        }
+                    </td>
+                </tr>
+            }
+        }
+    }
+
+</table>

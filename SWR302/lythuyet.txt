@@ -1,0 +1,175 @@
+Slot 4:
+KỸ NĂNG THUYÊTS TRÌNH
+1.Chuẩn bị
+- Slide
+- Bánh, quà(sổ , bút,...)
+- Trang thiết bị cần có(đồ trợ giúp nhắc nhở: nội dung, vật may mắn,..)
+2. Tiến hành trình bày
++ Mở đầu: kịch tính, gây tò mò
++ Twist: âm thanh, ánh sáng, hiệu ứng, ...
++ Thần thái, phong thái, body languaage, ngôn ngữ hình thế
++ Đôi mắt: báo quát cả căn phòng. Khi có ai đó buồn ngủ thì mình tuyệt đối không được mất tinh thần
+	    vì mình ko phải hoàn hảo => hãy nhìn những đôi mắt đang nhìn mình, khích lệ tinh thần
++ QUản lí QA: . Hỏi ngay khi đang nói => tính chất tương tác cao => thể hiện được bản lĩnh/ nhưng chỉ sợ câu hỏi khó
+	      . Chỉ được hỏi ở phần Q&A => đảm bảo thời gian truyền tải nội dung, nhưng rất dễ chán
+3. Kết thúc thuyết trình
+- Lời cảm ơn
+- Đúng giờ
+- Contact Info(pr for next meeting)
+KÝ NĂNG LÀM SLIDE
+1. Đi tìm Template ( nhớ ghi credit ở cuối slide)
+2. Cấu trúc slide
+- Trang chờ, welcome, thử màn hình => gây tò mò và chú ý
+- Trang bìa: logo góc trên, tựa đề ở chính giữa(ko dc welcome, presentation about ...), góc dưới tên giảng viên hướng dẫn, góc dưới phải tên member, version, @...
+- Trang profile: ảnh, info cá nhân, các dự án nổi bật, Slogan châm ngôn ...
+- Trang mục lục: Agenda(contents/Outlines 36px/ bold) ( max 1 trang, phôn chữ 32), dùng dropdown list, chữ ko chân(Arial), ko nên dùng có chân(rối mắt), foote: số trang font 8-10 ko lạm dụng hiệu ứng => nhất quán trg layout
+- Trang Conclusion: 
+- Trang references: https://....(cấm google.com)
+- Trang cuối Thankyou & QA: (infor liên lạc và next meeting
+
+Slot 5: Bước vào thế giới Requirements-Các khái niệm
+
+REQUIRMENTS ENGINEERING (R/E)
+1.
+-> Các kĩ thuật để tìm ra yêu cầu phần mềm
+-> Học các kĩ thuật để tìm ra reg từ phía customer
+==> WHy reg engineering(tại sao cần phải học): - Dev team: (tam sao thất bản) sai lệch trong quá trình giao tiếp
+					       - Customer: là 1 ai đó, là 1 công ty, 1 doanh nghiệp, 1 tổ chức, 1 phòng ban đặt hàng ta(dev) làm app cho họ => họ chính là khách hàng
+						-> sự khó diễn đạt requirement
+						-> diễn đạt sai
+						-> emerging
+						-> changing
+						-> conflict
+					       - Chi phí, phí tổn khi reg có vấn đề(reg sai, thừa , thiếu) ảnh hưởng đến quá trình làm dự án, người dùng quay lưng với app. reg thừa nhưng khách hàng yêu cầu vẫn phải làm (nghe nhạc trong web bấn hàng)
+
+2. Ví dụ về Reg
+* Tôi muốn app có tính năng thêm mới customer thân thiết(membership), thêm mới hồ sơ sinh viên
+* Tôi muốn app có màn hình tạo mới đơn hàng
+* App cho phép tôi sửa giá của dịch vụ chăm sóc thú cưng
+
+
+Slot 6:
+
+3. + ý tưởng app đến từ đâu
+   + App xuất hiện thế nào
+   + Các loại cty mà app xuất hiện
+- PRODUCT-BASED: 
+		+ Công ty tự bỏ tiền trả, tự đưa ra ý tưởng làm app
+		+ Bán ra thị trường, mong nhiều người mua, xài
+		+ Cty p/mềm -> ai mua, ai xài, 
+		=> GENERIC APP(app chung)
+		Fsoft: AKA BOT nhúng vào các website
+		Microsoft: WIndows, Office,...
+		Riot: LMHT
+		EASport: FIFA
+		Adobe: Photoshop
+Phải tự bỏ tiền túi => Ế, lỗ // nếu ổn , 
+Thành đế chế, Reg chủ động
+==>> START UP: 
+		- Công ty non trẻ có ý tưởng về 1 cái app hay sản phẩm độc lạ và hy vọng chiếm được bá tánh: Tìm Shark, FPT cần cổ đông góp vốn
+REGs: Bắt buộc nghiên cứu thị trường. SURVEY, YOUTUBE, diễn đàn => TREND 
+- SERVICE-BASED:
+		+ Cty chờ ai đó đưa tiền và đặt hàng công ty làm app(Công yt phần mềm)
+		+ Đặt hàng làm riêng
+		=> gọi là: CUSTOMIZED/BESPOKE app
+		Fsoft: -> Bệnh viện gọi đặt làm app quản lsi bệnh viện
+		       -> TP Bank gọi làm live 24/7
+		ELCA: K/sạn châu âu muốn app quản lí ksan
+Không ế vì không cần bán app, có luôn customer để hỏi REGs, có tiền
+-> Theo REQs, RANK của cty phần mềm(số má)
+		+ Fsoft -> công ty phần mềm của nhật -> Bệnh viện yêu cầu: làm app quản lí bệnh viện, siêu thị ở nhật(công ty nhật mướn fsoft nhân công rẻ)
+=> Out-sourcing(gia công phần mềm) -> gọi là "cò"
+
+- Cty lớn, tập đoàn xài app hàng ngày cho cviec của họ: 
+	+ TGĐ
+	+ LAZADA
+	+ Ngân Hàng
+	+ Momo
+		Nuôi 1 nhóm dev để nâng cấp, bảo trì, viết mới cái app xài cho doanh nghiệp
+
+WHY REG: 
+- Customer là ai: là bá tánh, tất cả mn trên thế giới(GENERIC), là 1 ai đó cụ thể: công ty nhà hàng => CUSTOMERIZED
+Dev giaio tiếp với khách hàng => người đưa ra Regs
+
+
+- AS IS SYSTEM/LEGACY SYSTEM: 
+		+ Hiện trang, cách khách hàng làm việc trước khi có app của chúng ta
+		+ Hệ thống cũ, hệ thống hiện có: trang giấy, tay , excel, app verrsion cũ của cty khác không tiếp tục làm việc nữa
+		Ví dụ: ATM truyền thống
+- TO BE SYSTEM: 
+		+ App mới ta sẽ viết cho khách hàng => liên quan đến legacy system
+		Ví dụ: cây ATM live bank 24/7 
+
+
+
+Phân biệt Project và Product
+- Bàn về quá trình các công việc làm ra cái app  ->(xong done)->  là product
+đang làm(project)(dev team)     vs     đã xong, ra lò(product) (=> bug và sử dụng)
+
+Slot 8:
+Scope or R/E quá trình học về REGs ta tập trung vào những thứ gì
+có 3 câu hỏi ta focus:
+		+ Why? tại sao lại làm app này -> ai đặt câu hỏi: 
+								+ Product-Based: Khởi nghiệp  GENERIC APP: chủ công ty, founder-cty, chịu trách nghiệm sản phẩm của mình
+								+ Service-Based: chủ doanh nghiệp đặt câu hỏi  CUSTOMIZED BESPOKE: app làm theo đặt hàng của ai đó: Giám đốc chủ doanh nghiệp sẽ phải trả lời tính cẩn thiết của việc làm app để giúp công việc kinh doanh, vận hành
+								+ Chủ doanh nghiệp, các trưởng phòng ban: app cty bự, công nghệ, lazzada, shopee  :  ông chủ doanh nghiệp, sếp các phòng ban sẽ là người đặt ra câu hỏi
+
+		+ What? App sẽ cung cấp tính năng gì cho user, customer	
+		+ Who? Ai, thiết bị gì sẽ tham gia việc vận hành app để hoàn tất quy trình xử lí doanh nghiệp
+
+
+SLOT 9:
+Scope or R/E quá trình học về REGs ta tập trung vào những thứ gì
+có 3 câu hỏi ta focus:
+		+ Why? tại sao lại làm app này 
+			Benefit(lợi ích khi xài app)
+			GENERIC:
+				- Khách hàng sử dụng app là bất kì ai ngoài kia. Tiếp cận họ bằng cách làm Questionaire/Survey, Lấy số liệu từ thị trường => tìm dc trend, Need => app xuất hiện
+		+ What? App sẽ cung cấp tính năng gì cho user, customer	
+		+ Who? Ai xài app hoặc thiết bị gì sẽ tham gia việc vận hành app để hoàn tất quy trình xử lí doanh nghiệp
+
+
+SLOT 10:
+
+R/E
+
+Scope or R/E quá trình học về REGs ta tập trung vào những thứ gì
+có 3 câu hỏi ta focus:
+		+ Why? tại sao lại làm app này 
+		+ What? App sẽ cung cấp tính năng gì cho user, customer	
+			- App có tính năng gì
+			- App có màn hình gì để hỗ trợ công việc của khách hàng
+				Ví dụ:  App cần có màn hình cho cập nhật giá dịch vụ cho pet
+					App xem noti về đồ chơi mới 
+					App hỗ trợ tính năng tạo mưới hồ sơ khách hàng tahan thiết
+		+ Who? Ai xài app hoặc thiết bị gì sẽ tham gia việc vận hành app để hoàn tất quy trình xử lí doanh nghiệp
+			- Ai sẽ xài app, xài màn hình
+			- (user-role) acter trong sơ đồ  use case diagram as a role i want to
+			- device/ thiết bị sẽ cần để trợ giúp quá trình xài các tính năng	
+				ví dụ: App tính tiền của siêu thị: nhân viên thu ngân ->xài-> tạo mới đơn hàng, in bill
+					Máy đọc mã vạch(cố định, cầm tay)
+					Touch screen, printer, payment gateway
+
+
+
+Định nghĩa và phân loại về Regs
+		- Định nghĩa chung: 1 câu phát biểu của ai đó và ai đó phải thực thi
+		- Project Regs: 
+				+ Dành cho ai: gã PM(Project Manager), Scrum Master
+					Làm thế nào để trở thành PM: học chứng chỉ PM, chứng chỉ Scrum
+				Ví dụ: Anh em tăng ca 3 tuần heng, Cần them 3 đồng nghiệp xin ddeeer tăng tốc dự án, cần mua thêm barcode.reader để thử nghiệm tính năng tạo mới đơn hàng
+				Đ/nghĩa: những câu phát biểu bàn về sự chuẩn bị nhận lực, vật lực, tài lực, nguồn lực để sằn sàng cho việc triển khai dự án, ngay cả trong quá trình làm dự án. Để dan dev đúng thời gian đúng hạn cho dân dev  ra sản phẩm. Điều phối các nguồn lực để ra dc cái app. Project Mannagement triangle 
+		- Product Regs: Môn học này, nghề này tập chung vào tìm Regs
+				Các Regs dành cho ai: IT, Bussiness, Analyst(con người)
+
+
+
+
+
+
+
+
+
+
+
+

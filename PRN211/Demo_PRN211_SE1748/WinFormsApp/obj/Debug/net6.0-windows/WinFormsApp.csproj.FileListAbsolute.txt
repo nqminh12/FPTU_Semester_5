@@ -1,0 +1,55 @@
+D:\FPT\Ky5\PRN211\class\Demo_PRN211_SE1748\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.exe
+D:\FPT\Ky5\PRN211\class\Demo_PRN211_SE1748\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.deps.json
+D:\FPT\Ky5\PRN211\class\Demo_PRN211_SE1748\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.runtimeconfig.json
+D:\FPT\Ky5\PRN211\class\Demo_PRN211_SE1748\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.dll
+D:\FPT\Ky5\PRN211\class\Demo_PRN211_SE1748\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.pdb
+D:\FPT\Ky5\PRN211\class\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.Form1.resources
+D:\FPT\Ky5\PRN211\class\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.csproj.GenerateResource.cache
+D:\FPT\Ky5\PRN211\class\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\Ky5\PRN211\class\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.AssemblyInfoInputs.cache
+D:\FPT\Ky5\PRN211\class\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.AssemblyInfo.cs
+D:\FPT\Ky5\PRN211\class\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.csproj.CoreCompileInputs.cache
+D:\FPT\Ky5\PRN211\class\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.dll
+D:\FPT\Ky5\PRN211\class\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\refint\WinFormsApp.dll
+D:\FPT\Ky5\PRN211\class\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.pdb
+D:\FPT\Ky5\PRN211\class\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.genruntimeconfig.cache
+D:\FPT\Ky5\PRN211\class\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\ref\WinFormsApp.dll
+D:\FPT\Ky5\PRN211\class\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.FrmStudent.resources
+D:\FPT\Ky5\PRN211\class\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.FrmStart.resources
+C:\Users\Fpt\Documents\Zalo Received Files\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.exe
+C:\Users\Fpt\Documents\Zalo Received Files\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.deps.json
+C:\Users\Fpt\Documents\Zalo Received Files\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.runtimeconfig.json
+C:\Users\Fpt\Documents\Zalo Received Files\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.dll
+C:\Users\Fpt\Documents\Zalo Received Files\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.pdb
+C:\Users\Fpt\Documents\Zalo Received Files\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.Form1.resources
+C:\Users\Fpt\Documents\Zalo Received Files\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.FrmStart.resources
+C:\Users\Fpt\Documents\Zalo Received Files\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.FrmStudent.resources
+C:\Users\Fpt\Documents\Zalo Received Files\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.csproj.GenerateResource.cache
+C:\Users\Fpt\Documents\Zalo Received Files\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fpt\Documents\Zalo Received Files\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.AssemblyInfoInputs.cache
+C:\Users\Fpt\Documents\Zalo Received Files\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.AssemblyInfo.cs
+C:\Users\Fpt\Documents\Zalo Received Files\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\Fpt\Documents\Zalo Received Files\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.dll
+C:\Users\Fpt\Documents\Zalo Received Files\WinFormsApp\obj\Debug\net6.0-windows\refint\WinFormsApp.dll
+C:\Users\Fpt\Documents\Zalo Received Files\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.pdb
+C:\Users\Fpt\Documents\Zalo Received Files\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.genruntimeconfig.cache
+C:\Users\Fpt\Documents\Zalo Received Files\WinFormsApp\obj\Debug\net6.0-windows\ref\WinFormsApp.dll
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.exe
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.deps.json
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.runtimeconfig.json
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.dll
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.pdb
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.Form1.resources
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.FrmListTest.resources
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.FrmStart.resources
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.FrmStudent.resources
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.csproj.GenerateResource.cache
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.AssemblyInfoInputs.cache
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.AssemblyInfo.cs
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.csproj.CoreCompileInputs.cache
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.dll
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\refint\WinFormsApp.dll
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.pdb
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.genruntimeconfig.cache
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\WinFormsApp\obj\Debug\net6.0-windows\ref\WinFormsApp.dll

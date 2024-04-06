@@ -1,0 +1,86 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using Q2.Models;
+@model List<OrderDetail>
+<style>
+    
+
+    .table-style {
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid #ccc;
+    }
+
+        .table-style th, .table-style td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .table-style th {
+            background-color: #f2f2f2;
+        }
+
+        /* Optional styles for even and odd rows (zebra striping) */
+        .table-style tr:nth-child(even) {
+            background-color: #f5f5f5;
+        }
+</style>
+<h1>Details</h1>
+<h3>Order</h3>
+<hr />
+<table>
+    <tr>
+        <td>
+            <strong>OrderDate</strong>
+            
+        </td>
+        <td>@ViewBag.Orders.OrderDate</td>
+    </tr>
+    <tr>
+        <td>
+            <strong>RequiredDate</strong>
+
+        </td>
+        <td>@ViewBag.Orders.RequiredDate</td>
+    </tr>
+    <tr>
+        <td>
+            <strong>ShippedDate</strong>
+
+        </td>
+        <td>@ViewBag.Orders.ShippedDate</td>
+    </tr>
+    <tr>
+        <td>
+            <strong>Frieght</strong>
+
+        </td>
+        <td>@ViewBag.Orders.Freight</td>
+    </tr>
+    <tr>
+        <td>
+            <strong>Employee</strong>
+
+        </td>
+        <td>@ViewBag.Orders.Employee.FirstName @ViewBag.Orders.Employee.LastName</td>
+    </tr>
+</table>
+
+<h3>List of products</h3>
+<table class="table-style">
+    <tr>
+        <th>ProductId</th>
+        <th>ProductName</th>
+        <th>Category</th>
+        <th>Quantity</th>
+    </tr>
+    @foreach(OrderDetail o in Model)
+    {
+        <tr>
+            <td>@o.Product.ProductId</td>
+            <td>@o.Product.ProductName</td>
+            <td>@o.Product.Category.CategoryName</td>
+            <td>@o.Quantity</td>
+        </tr>
+    }
+</table>

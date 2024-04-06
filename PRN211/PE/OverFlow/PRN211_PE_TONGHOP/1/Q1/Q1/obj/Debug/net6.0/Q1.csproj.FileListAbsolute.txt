@@ -1,0 +1,14 @@
+E:\FULearning\Spring2024\PRN211\PE\OverFlow\PRN211_PE_TONGHOP\1\Q1\Q1\bin\Debug\net6.0\Q1.exe
+E:\FULearning\Spring2024\PRN211\PE\OverFlow\PRN211_PE_TONGHOP\1\Q1\Q1\bin\Debug\net6.0\Q1.deps.json
+E:\FULearning\Spring2024\PRN211\PE\OverFlow\PRN211_PE_TONGHOP\1\Q1\Q1\bin\Debug\net6.0\Q1.runtimeconfig.json
+E:\FULearning\Spring2024\PRN211\PE\OverFlow\PRN211_PE_TONGHOP\1\Q1\Q1\bin\Debug\net6.0\Q1.dll
+E:\FULearning\Spring2024\PRN211\PE\OverFlow\PRN211_PE_TONGHOP\1\Q1\Q1\bin\Debug\net6.0\Q1.pdb
+E:\FULearning\Spring2024\PRN211\PE\OverFlow\PRN211_PE_TONGHOP\1\Q1\Q1\obj\Debug\net6.0\Q1.GeneratedMSBuildEditorConfig.editorconfig
+E:\FULearning\Spring2024\PRN211\PE\OverFlow\PRN211_PE_TONGHOP\1\Q1\Q1\obj\Debug\net6.0\Q1.AssemblyInfoInputs.cache
+E:\FULearning\Spring2024\PRN211\PE\OverFlow\PRN211_PE_TONGHOP\1\Q1\Q1\obj\Debug\net6.0\Q1.AssemblyInfo.cs
+E:\FULearning\Spring2024\PRN211\PE\OverFlow\PRN211_PE_TONGHOP\1\Q1\Q1\obj\Debug\net6.0\Q1.csproj.CoreCompileInputs.cache
+E:\FULearning\Spring2024\PRN211\PE\OverFlow\PRN211_PE_TONGHOP\1\Q1\Q1\obj\Debug\net6.0\Q1.dll
+E:\FULearning\Spring2024\PRN211\PE\OverFlow\PRN211_PE_TONGHOP\1\Q1\Q1\obj\Debug\net6.0\refint\Q1.dll
+E:\FULearning\Spring2024\PRN211\PE\OverFlow\PRN211_PE_TONGHOP\1\Q1\Q1\obj\Debug\net6.0\Q1.pdb
+E:\FULearning\Spring2024\PRN211\PE\OverFlow\PRN211_PE_TONGHOP\1\Q1\Q1\obj\Debug\net6.0\Q1.genruntimeconfig.cache
+E:\FULearning\Spring2024\PRN211\PE\OverFlow\PRN211_PE_TONGHOP\1\Q1\Q1\obj\Debug\net6.0\ref\Q1.dll

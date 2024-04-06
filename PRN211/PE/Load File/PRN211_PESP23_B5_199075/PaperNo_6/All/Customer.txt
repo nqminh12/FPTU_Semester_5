@@ -1,0 +1,4 @@
+C01;Le Phuong Lan;True;07/04/1990
+C02;La Cam Tu;False;09/06/2000
+C03;Hoang Bao Lam;True;02/03/1980
+C04;Pham Phuong Dat;True;04/03/1994

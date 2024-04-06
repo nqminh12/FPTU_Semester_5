@@ -1,0 +1,147 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+
+<!-- Mirrored from affixtheme.com/html/xmee/demo/register-22.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Jan 2024 17:00:34 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SCN | Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <!-- Flaticon CSS -->
+    <link rel="stylesheet" href="font/flaticon.css">
+    <!-- Star Animation CSS -->
+    <link rel="stylesheet" href="css/star-animation.css">
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/checkotp.css">
+    <style>
+        /* Modal Body Style */
+    </style>
+
+
+
+</head>
+
+<body>
+
+
+
+    <div class="container-fluid body-content">
+        <div class="row">
+            <!-- left nav -->
+
+
+
+            <!-- Content -->
+            <div class="col-lg-12">
+                <div class="body-content-reset">
+                    <h1>Verify</h1>
+                    <p>Your code was sent to you via email</p>
+                    <form action="">
+                        <div id="otp-container">
+                            <input type="text" class="otp-input" maxlength="1" required/>
+                            <input type="text" class="otp-input" maxlength="1" required/>
+                            <input type="text" class="otp-input" maxlength="1" required/>
+                            <input type="text" class="otp-input" maxlength="1" required/>
+                            <input type="text" class="otp-input" maxlength="1" required/>
+                            <input type="text" class="otp-input" maxlength="1" required/>
+                            <div id="error-message" class="error-message" style="color: red;"></div>
+                        </div>
+                        <button>Verify</button>
+                    </form>
+
+                    Didn't I receive code? <a href="">Request again</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        const otpInputs = document.querySelectorAll('.otp-input');
+        const errorMessage = document.getElementById('error-message');
+    
+        otpInputs.forEach((input, index) => {
+          input.addEventListener('input', (event) => {
+            let value = event.target.value;
+    
+            if (!/^\d*$/.test(value)) {
+              // Check if the value contains non-numeric characters
+              displayErrorMessage('Please input number!');
+              event.target.value = ''; // Clear the input
+            } else {
+              hideErrorMessage();
+              if (value !== '' && index < otpInputs.length - 1) {
+                otpInputs[index + 1].focus();
+              } else {
+                otpInputs[index].blur();
+              }
+            }
+          });
+    
+          input.addEventListener('keydown', (event) => {
+            const key = event.key;
+    
+            if (/^\d$/.test(key)) {
+              // Check if the pressed key is a digit
+              event.preventDefault(); // Prevent the default action
+              input.value = key; // Set the value to the pressed digit
+    
+              if (index < otpInputs.length - 1) {
+                otpInputs[index + 1].focus();
+              } else {
+                otpInputs[index].blur();
+              }
+            }
+    
+            if (event.key === 'ArrowLeft' && index > 0) {
+              otpInputs[index - 1].focus();
+            }
+    
+            if (event.key === 'ArrowRight' && index < otpInputs.length - 1) {
+              otpInputs[index + 1].focus();
+            }
+    
+            if (event.key === 'Backspace' && index > 0 && event.target.value === '') {
+              otpInputs[index - 1].focus();
+            }
+          });
+    
+          input.addEventListener('focus', () => {
+            input.select(); // Highlight text on focus
+          });
+        });
+    
+        function displayErrorMessage(message) {
+          errorMessage.textContent = message;
+          setTimeout(() => {
+            hideErrorMessage();
+          }, 2000); // 2 seconds
+        }
+    
+        function hideErrorMessage() {
+          errorMessage.textContent = '';
+        }
+      </script>
+    <!-- jquery-->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Js -->
+    <script src="js/main.js"></script>
+</body>
+
+
+<!-- Mirrored from affixtheme.com/html/xmee/demo/register-22.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Jan 2024 17:00:34 GMT -->
+
+</html>

@@ -1,0 +1,62 @@
+﻿@using Question2.Models;
+@{
+    OrderDetail od = (OrderDetail)Model;
+}
+<style>
+    .table-condensed {
+        border-collapse: collapse; /* Gộp đường viền của ô */
+    }
+
+        .table-condensed th,
+        .table-condensed td {
+            padding: 5px; /* Khoảng cách bên trong ô */
+            border: 1px solid #000; /* Đường viền của ô */
+        }
+</style>
+<h1>Details</h1>
+<h4>Order</h4>
+<table>
+    <tbody>
+        <tr>
+            <td>OrderDate</td>
+            <td>@od.Order.OrderDate</td>
+        </tr>
+        <tr>
+            <td>RequiredDate</td>
+            <td>@od.Order.RequiredDate</td>
+        </tr>
+        <tr>
+            <td>ShippedDate</td>
+            <td>@od.Order.ShippedDate</td>
+        </tr>
+        <tr>
+            <td>Fieght</td>
+            <td>@(string.Format("{0:0.00}", od.Order.Freight))</td>
+        </tr>
+        <tr>
+            <td>Employee</td>
+            <td>@(od.Order.Employee.FirstName + " " + od.Order.Employee.LastName)</td>
+        </tr>
+    </tbody>
+</table>
+<table class="table-condensed table">
+    <thead>
+        <tr>
+            <th>ProductId</th>
+            <th>ProductName</th>
+            <th>Category</th>
+            <th>Quantity</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (OrderDetail o in ViewBag.ListProduct)
+        {
+            <tr>
+                <td>@o.Product.ProductId</td>
+                <td>@o.Product.ProductName</td>
+                <td>@o.Product.Category.CategoryName</td>
+                <td>@o.Quantity</td>
+            </tr>
+        }
+    </tbody>
+</table>

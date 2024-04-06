@@ -1,0 +1,391 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.no-padding-margin {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(215, 214, 214, 0.556)
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-search {
+        margin: 15px 0px;
+    }
+}
+
+
+.header {
+    background-color: #6497b1;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header ul li a {
+    display: inline-block;
+}
+
+.navbar {
+    /* background-color: #005b96; */
+    background: linear-gradient(to right,#9370DB, #87CEEB);
+    padding: 13px 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+}
+
+.nav-search input {
+    margin: 0px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid white;
+}
+
+.nav-search button {
+    border: 2px solid white;
+    border: 2px 2px 2px 0px
+}
+
+.navbar-list-option-mid ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-list-option-mid ul li i {
+    font-size: 26px;
+    padding: 0px 45px;
+    color: white;
+}
+
+.navbar-list-option-mid ul li i:hover {
+    color: rgba(0, 0, 0, 0.777);
+}
+
+.navbar-list-option-right li {
+
+    display: inline-block;
+}
+
+.navbar-list-option-right {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.navbar-list-option-right ul {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: auto auto;
+    justify-content: right;
+    padding-right: 20px;
+}
+
+.navbar-list-option-right ul li i {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.777);
+}
+
+.navbar-list-option-right ul li a {
+
+    background-color: white;
+
+    border-radius: 50%;
+    width: 40px;
+    height: 39px;
+    text-align: center;
+}
+
+.navbar-list-option-right ul li a:hover {
+    background-color: rgba(215, 214, 214, 0.698);
+}
+
+.navbar-list-option-left input {
+    width: 100%;
+}
+
+.navbar-list-option-left {
+    display: inline-block;
+}
+
+.navbar-list-option-left img {
+    width: 25%;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.body-content {
+    padding-top: 70px;
+    width: 100%;
+
+}
+
+.content-post {
+    display: flex;
+    justify-content: center;
+
+}
+
+.status-post {
+    display: inline-block;
+    width: 70%;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+
+.status-post form img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.status-post input[type="text"] {
+    width: 80%;
+    border: none;
+    background-color: rgba(215, 214, 214, 0.698);
+    border-radius: 30px;
+    height: 40px;
+    padding: 0px 20px;
+}
+
+.status-option {
+    display: flex;
+    justify-content: space-between;
+}
+
+.status-option button {
+    border: none;
+    background-color: white;
+    font-size: 18px;
+}
+
+.status-option input {
+    color: #000;
+    border: none;
+    background-color: white;
+}
+
+.status-option a i:hover {
+    text-decoration: dashed;
+    color: rgba(0, 0, 0, 0.777);
+    font-size: 20px;
+    border-bottom: 1px solid #b3cde0;
+}
+
+.status-option span {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.body-content-left img {
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.body-content-left div a {
+    color: black;
+    text-decoration: none;
+}
+
+.body-content-left div a i {
+    font-size: 20px;
+    padding: 15px 20px;
+    color: rgba(0, 0, 0, 0.777);
+    width: 25%;
+}
+
+.body-content-left div {
+    margin: 20px 0px;
+}
+
+.body-content-left div a:hover {
+    background-color: rgba(215, 214, 214, 0.698);
+}
+
+.body-content-left {
+    background-color: rgba(255, 255, 255, 0.385);
+    padding-top: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    height: 100%;
+}
+
+.body-content-left div a {
+    width: 100%;
+    display: block;
+}
+
+.body-content-left-avatar {
+    color: black;
+    padding: 5px 0px 5px 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .body-content-left {
+        display: none;
+    }
+}
+
+.status-post-1 {
+    display: inline-block;
+    width: 70%;
+    background-color: white;
+    padding: 20px 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .status-post-1 {
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .status-post {
+        width: 100%;
+
+    }
+}
+
+.status-post-1 p {
+    padding: 10px 30px 0px 30px;
+    font-size: 130%;
+}
+
+.status-post-1 table img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.post-img img {
+    width: 100%;
+    border-radius: 0%;
+}
+
+.status-post-1-header {
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.status-post-1-header a{
+    float: right;
+    color: black;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.status-post-1-header a:hover{
+    color: black;
+}
+
+.status-post-1-header img {
+    margin-left: 3.7%;
+    margin-right: 100%;
+}
+
+.status-post-1 img {
+    margin: 0px;
+    width: 100%;
+}
+
+.status-post-1 .button-add-freind{
+    background-color: blue;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-left: 30px;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.status-post-1 .button-delete{
+    background-color: red;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-left: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.status-post-1 .button-add-freind:hover {
+    background-color: rgba(0, 0, 255, 0.7);
+    transform: scale(1.1);
+}
+.status-post-1 .button-delete:hover {
+    background-color: rgba(255, 0, 0, 0.7);
+    transform: scale(1.1);
+}
+
+.td-img {
+    width: 70px;
+    padding-right: 10px;
+}
+
+.like-btn {
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+    border: none;
+}
+
+.liked i {
+    color: red;
+}
+
+.like-comment-saved {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.like-comment-saved a {
+
+    padding-right: 10px;
+    background-color: white;
+    width: 25%;
+    padding: 7px 10px;
+    text-decoration: none;
+}
+
+.number-of-like-and-comments {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.like-comment-saved a i {
+    font-weight: 100;
+}
+
+.like-comment-saved a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.like-comment-saved span {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+

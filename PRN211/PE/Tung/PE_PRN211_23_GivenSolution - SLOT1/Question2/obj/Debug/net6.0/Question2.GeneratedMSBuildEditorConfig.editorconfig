@@ -1,0 +1,27 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Question2
+build_property.RootNamespace = Question2
+build_property.ProjectDir = E:\FULearning\Spring2024\PRN211\PE\Tung\PE_PRN211_23_GivenSolution - SLOT1\Question2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\FULearning\Spring2024\PRN211\PE\Tung\PE_PRN211_23_GivenSolution - SLOT1\Question2
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/FULearning/Spring2024/PRN211/PE/Tung/PE_PRN211_23_GivenSolution - SLOT1/Question2/Views/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/FULearning/Spring2024/PRN211/PE/Tung/PE_PRN211_23_GivenSolution - SLOT1/Question2/Views/Orders/ListByEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXExpc3RCeUVtcGxveWVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

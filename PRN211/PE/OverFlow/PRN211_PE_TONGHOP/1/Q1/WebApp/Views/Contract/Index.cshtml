@@ -1,0 +1,60 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using WebApp.Models;
+@model List<Contract>
+<style>
+    /* styles.css */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        table th, table td {
+            border: 1px solid #dddddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #f2f2f2;
+        }
+</style>
+<h1>List of contracts</h1>
+
+<form id="frm" asp-controller="Contract" asp-action="Index" method="post">
+    List Customer:
+    <select name="customerid" onchange="document.getElementById('frm').submit();">
+        <option value="0">All customer</option>
+        @foreach (Customer c in ViewBag.Customer)
+        {
+            @if (c.CustomerId == ViewBag.selectedId)
+            {
+                <option value="@c.CustomerId" selected>@c.CustomerName</option>
+            }
+            else
+            {
+                <option value="@c.CustomerId" selected>@c.CustomerName</option>
+            }
+        }
+    </select>
+</form>
+
+<table>
+    <tr>
+        <th>Code</th>
+        <th>Customer</th>
+        <th>Employee</th>
+        <th>Type</th>
+        <th>SignedDate</th>
+    </tr>
+    @foreach (Contract c in Model)
+    {
+        <tr>
+            <td>@c.Code</td>
+            <td>@c.Customer.CustomerName</td>
+            <td>@c.Employee.EmployeeName</td>
+            <td>@c.Type</td>
+            <td>@c.SignedDate.ToString().Substring(0, 8)</td>
+
+        </tr>
+    }
+</table>

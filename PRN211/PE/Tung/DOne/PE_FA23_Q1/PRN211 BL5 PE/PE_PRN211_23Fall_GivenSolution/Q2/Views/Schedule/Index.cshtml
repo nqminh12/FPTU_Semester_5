@@ -1,0 +1,49 @@
+﻿@using Q2.Models;
+@using Microsoft.EntityFrameworkCore
+@*
+*@
+@{
+    string getFilmName(int roomID, int slotID, DateTime t)
+    {
+        PE_PRN_Fall2023B1Context context = new PE_PRN_Fall2023B1Context();
+        var rls = context.Schedules
+                     .Include(x => x.Movie)
+                     .Where(x => x.RoomId == roomID && x.TimeSlotId == slotID
+                            && (t >= x.StartDate && t <= x.EndDate))
+                     .Select(x => new
+                     {
+                         x.Movie.Title
+                     }).FirstOrDefault();
+
+        return rls == null ? "" : rls.Title;
+
+    }
+    var ListRoom = ViewBag.roomList;
+    var ListSlot = ViewBag.timeSlotList;
+    var date = ViewBag.Date;
+}
+<form method="post" action="ByDate">
+    <input type="date" name="time" />
+    <button type="submit">Get Schedule</button>
+</form>
+<h1>Schedule date on: @date</h1>
+<table border="1">
+    <tr>
+        <th></th>
+        @foreach (var i in ListSlot)
+        {
+            <th>@(i.StartTime + "-" + i.EndTime)</th>
+        }
+    </tr>
+    @foreach (var r in ListRoom)
+    {
+        <tr>
+            <th>@r.Title</th>
+            @foreach (var i in ListSlot)
+            {
+                <td>@getFilmName(r.Id, i.Id, date)</td>
+            }
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,283 @@
+---------------------------------Terminal------------------
+dotnet ef dbcontext scaffold "Server=localhost;database=Winapp_Final_Project;Trusted_Connection=SSPI;Encrypt=false;TrustServerCertificate=true"Microsoft.EntityFrameworkCore.SqlServer --output-dir Models
+==============================================
+-=----------------------------------------------------
+
+----------------------------------appsetting json-----------------------
+"ConnectionStrings": {
+    "DB": "server=localhost;database=TravelReview;Trusted_Connection=SSPI;Encrypt=false;TrustServerCertificate=true"
+  }
+
+================================================================================
+-------------------------------------Context---------------------------------
+if (!optionsBuilder.IsConfigured)
+        {
+            var config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
+            string ConnectionStr = config.GetConnectionString("DB");
+
+            optionsBuilder.UseSqlServer(ConnectionStr);
+        }
+
+
+--------------------------------------------------
+
+---------------Web Q2---------------------------------------------------------------------------------------------------
+dotnet ef dbcontext scaffold "server=localhost;database=Quiz_Extra_PRN211;uid=sa;pwd=123;TrustServerCertificate=true" Microsoft.EntityFrameworkCore.SqlServer -o Models -f
+
+----------------------------------appsetting json-----------------------
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DB": "server=localhost;database=Quiz_Extra_PRN211;Trusted_Connection=SSPI;Encrypt=false;TrustServerCertificate=true"
+  }
+
+}
+
+--------------------------------------------------------
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddControllersWithViews();
+
+var app = builder.Build();
+
+//app.MapGet("/", () => "Hello World!");
+app.MapControllerRoute(
+    name:"default",
+    pattern:"{controller=Subject}/{action=Index}/{id?}"
+    ); 
+
+app.Run();
+
+
+-------------------------------------------------------
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+builder.Services.AddControllersWithViews();
+builder.Services.AddSession();
+builder.Services.AddDistributedMemoryCache();
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Home/Error");
+}
+app.UseStaticFiles();
+
+app.UseRouting();
+
+app.UseAuthorization();
+app.UseSession();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+});
+
+
+app.Run();
+
+==========================
+	public PeFall21B5Context context;
+        public Form1()
+        {
+            context = new PeFall21B5Context();
+            InitializeComponent();
+        }
+
+//lấy danh sách employee
+	public Employee getEmployeeInUI()   
+        {
+            Employee emp = new Employee();
+            emp.Name = txtName.Text;
+            emp.Dob = dtpDOB.Value; // kiểu date time
+            emp.Position = cbPosition.Text;
+            if (rbFemale.Checked == true)    //  kiểm tra trong radius button
+            {
+                emp.Sex = "Female";
+            }
+            else
+            {
+                emp.Sex = "Male";
+            }
+            return emp;
+
+        }
+
+
+//Load data
+        public void loadData()
+        {
+            /*dgvEmployee.DataSource = context.Employees.ToList(); ->câu lệnh lấy ra tất cả các giá trị của bảng Employess*/
+            dgvEmployee.DataSource = (from emp in context.Employees // câu lệnh chỉ lấy ra 5 bảng dc chỉ định trong Employee
+                                      select new
+                                      {
+                                          emp.Id,
+                                          emp.Name,
+                                          emp.Sex,
+                                          emp.Dob,
+                                          emp.Position
+                                      }
+                                        ).ToList();
+        }
+
+
+
+//load data vào dgv
+	private void Form1_Load(object sender, EventArgs e)  // load data vào dgv
+        {
+            cbPosition.DataSource = context.Employees.Select(x => x.Position).Distinct().ToList();
+            loadData();
+        }
+
+
+
+
+//ADD
+	private void btAdd_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                Employee emp = getEmployeeInUI();
+                if (string.IsNullOrEmpty(emp.Name) == false) // dòng if check xem Name có đang là khoảng trắng không
+                {
+                    context.Employees.Add(emp);
+                    context.SaveChanges();
+                    loadData();
+                }
+                else
+                {
+                    MessageBox.Show("Name not must be empty!");
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
+
+
+
+//cellClick (not null)
+	private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow selectedRow = dataGridView1.Rows[e.RowIndex];
+
+                string id = selectedRow.Cells["EmployeeId"].Value.ToString();
+                string name = selectedRow.Cells["Name"].Value.ToString();
+                string isMale = selectedRow.Cells["Male"].Value.ToString();
+                string phone = selectedRow.Cells["Phone"].Value.ToString();
+                string salary = selectedRow.Cells["Salary"].Value.ToString();
+
+                txtId.Text = id;
+                txtName.Text = name;
+                rbMale.Checked = isMale == "True";
+                txtPhone.Text = FormatPhoneNumber(phone);
+                numericUpDown1.Value = decimal.Parse(salary);
+            }
+        }
+
+//cellClick (null and not null)
+	private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+             if (e.RowIndex >= 0)
+ 	     {
+     		DataGridViewRow selectedRow = dataGridView1.Rows[e.RowIndex];
+     		txtID.Text = selectedRow.Cells["Id"].Value?.ToString() ?? "";
+     		txtName.Text = selectedRow.Cells["Name"].Value?.ToString() ?? "";
+     		rtxtDescription.Text = selectedRow.Cells["Description"].Value?.ToString() ?? "";
+     		dateStartDate.Value = (selectedRow.Cells["StartDate"].Value as DateTime?) ?? DateTime.Today;
+     		cbType.SelectedValue = selectedRow.Cells["Type"].Value.ToString();
+ 	     }
+        }
+
+
+// update
+
+	private void btEdit_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+                Employee newEmp = getEmployeeInUI();
+                newEmp.Id = int.Parse(txtID.Text);
+                if (string.IsNullOrEmpty(newEmp.Name) == false) // dòng if check xem Name có đang là khoảng trắng không
+                {
+                    // trước hết tìm ra employee cũ vs ID
+                    Employee oldEmp = context.Employees.FirstOrDefault(x => x.Id == newEmp.Id);
+
+                    oldEmp.Name = newEmp.Name;
+                    oldEmp.Sex = newEmp.Sex;
+                    oldEmp.Dob = newEmp.Dob;
+                    oldEmp.Position = newEmp.Position;
+                    context.SaveChanges();
+                    loadData();
+                }
+                else
+                {
+                    MessageBox.Show("Name not must be empty!");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
+      
+
+// Refresh
+        private void btRefresh_Click(object sender, EventArgs e)
+        {
+            txtID.Text = string.Empty;
+            txtName.Text = string.Empty;
+            rbMale.Checked = false;
+            rbFemale.Checked = false;
+            dtpDOB.Value = DateTime.Now;
+            cbPosition.SelectedIndex = 0;
+        }
+
+// format String 
+public string formatPhoneNumber(string phone)
+        {
+            return string.Format("({0}) {1}-{2}", phone.Substring(0,3),phone.Substring(3,3), phone.Substring(6,4));
+        }
+
+// table format
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+
+
+thẻ a: 
+ <a href="@Url.Action("ListByEmployee", "Orders", new{id = p.EmployeeId})">@p.FirstName @p.LastName</a>
+@Url.Action(action, controller, new{id = p.EmployeeId})
+
+
+

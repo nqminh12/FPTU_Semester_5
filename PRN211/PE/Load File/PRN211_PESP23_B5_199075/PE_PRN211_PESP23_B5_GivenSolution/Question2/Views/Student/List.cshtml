@@ -1,0 +1,61 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using Question2.Models
+@model List<Student>
+@{
+    string dateFormat(string date)
+    {
+        string[] dateFormat = date.Split(" ");
+        return dateFormat[0];
+    }
+
+    string checkSort(int s){
+        if (s == @ViewBag.sort)
+        {
+            return "checked";
+        }
+        return "";
+    }
+}
+
+<form asp-controller="Student" asp-action="List" method="post">
+    <label>Major</label>
+    <select name="majorcode">
+        @foreach (var major in ViewBag.Major)
+        {
+            if (@major.MajorCode == ViewBag.SelectedCode)
+            {
+                <option value="@major.MajorCode" selected>@major.MajorName</option>
+
+            } else
+            {
+                <option value="@major.MajorCode">@major.MajorName</option>
+            }
+        }
+    </select>
+    <label>Gender</label>
+    <select name="gender">
+        @if(ViewBag.gender == 0){
+            <option value="1">Male</option>
+            <option value="0" selected>Female</option>
+        }
+        else
+        {
+            <option value="1" selected>Male</option>
+            <option value="0" >Female</option>
+        }
+
+    </select>
+    <br />
+    <label>Sort by: </label>
+    <input type="radio" name="sort" value="3" @checkSort(3) />StudentName
+    <input type="radio" name="sort" value="1" @checkSort(1) />StudentId
+    <input type="radio" name="sort" value="2" @checkSort(2) />StudentDob
+    <br /><button type="submit">Filter</button>
+</form>
+
+
+<h1>List of student</h1>
+@foreach (Student s in Model)
+{
+    <p>@s.StudentId - @s.FullName - @s.Major - @dateFormat(@s.Dob.ToString())</p>
+}

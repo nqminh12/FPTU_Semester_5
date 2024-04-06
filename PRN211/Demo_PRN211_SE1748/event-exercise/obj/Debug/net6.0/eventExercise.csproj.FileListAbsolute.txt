@@ -1,0 +1,14 @@
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\event-exercise\bin\Debug\net6.0\eventExercise.exe
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\event-exercise\bin\Debug\net6.0\eventExercise.deps.json
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\event-exercise\bin\Debug\net6.0\eventExercise.runtimeconfig.json
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\event-exercise\bin\Debug\net6.0\eventExercise.dll
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\event-exercise\bin\Debug\net6.0\eventExercise.pdb
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\event-exercise\obj\Debug\net6.0\eventExercise.GeneratedMSBuildEditorConfig.editorconfig
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\event-exercise\obj\Debug\net6.0\eventExercise.AssemblyInfoInputs.cache
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\event-exercise\obj\Debug\net6.0\eventExercise.AssemblyInfo.cs
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\event-exercise\obj\Debug\net6.0\eventExercise.csproj.CoreCompileInputs.cache
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\event-exercise\obj\Debug\net6.0\eventExercise.dll
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\event-exercise\obj\Debug\net6.0\refint\eventExercise.dll
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\event-exercise\obj\Debug\net6.0\eventExercise.pdb
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\event-exercise\obj\Debug\net6.0\eventExercise.genruntimeconfig.cache
+E:\FULearning\Spring2024\PRN211\CODEDEMO\Demo_PRN211_SE1748\event-exercise\obj\Debug\net6.0\ref\eventExercise.dll

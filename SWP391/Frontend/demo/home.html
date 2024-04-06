@@ -1,0 +1,254 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+
+<!-- Mirrored from affixtheme.com/html/xmee/demo/register-22.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Jan 2024 17:00:34 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SCN | Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <!-- Flaticon CSS -->
+    <link rel="stylesheet" href="font/flaticon.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/home.css">
+
+
+
+</head>
+
+<body>
+   
+    <!-- Thanh nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid .no-padding-margin">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-2 navbar-list-option-left">
+                            <!-- <img src="img/logo.png" alt=""> -->
+                            <form class="d-flex nav-search">
+                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-light" type="submit"
+                                    style="border-radius: 0px 5px 5px 0px;"><i class="fas fa-search"></i></button>
+                            </form>
+                        </div>
+                        <div class="col-lg-8 navbar-list-option-mid">
+                            <ul class="navbar-nav">
+
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="home.html"><i class="fas fa-home"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="home.html"><i class="fas fa-store"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal"
+                        style="padding-right: 15px;"><i class="fas fa-users"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="home.html"><i class="far fa-comment-dots"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+            </div><!-- /.navbar-collapse -->
+            <div class="col-lg-2 navbar-list-option-right">
+                <ul class="navbar-nav">
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="home.html"><i class="fas fa-bell"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="login.html" id="link"><i class="fas fa-sign-out-alt"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div><!-- /.container-fluid -->
+        
+    </nav>
+    <!-- End Nav -->
+    
+    
+
+    <div class="container-fluid body-content">
+        <div class="row">
+            <!-- left nav -->
+            
+            <div class="col-lg-2 body-content-left no-padding-margin">
+                <div><a href="" class="body-content-left-avatar"><img src="img/avatar1.jpg">Tran Quang Tung</a></div>
+
+
+                <div><a href=""><i class="fas fa-store"></i><span>Maretplace</span></a></div>
+                <div><a href=""><i class="fas fa-history"></i><span>Celebrate</span></a></div>
+                <div>
+                    <a class="" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal"
+                        style="padding-right: 15px;"><i class="fas fa-users"></i><span>Group</span></a>
+                </div>
+                <div><a href=""><i class="far fa-comment-dots"></i><span>Messages</span></a></div>
+                <div>
+                    <a class="" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"
+                        style="padding-right: 15px;"><i class="fas fa-users-cog"></i><span>Create Group</a>
+                </div>
+                <div><a href=""><i class="fas fa-user-cog"></i><span>Setting</span></a></div>
+            </div>
+            <!-- End left nav -->
+            <div class="col-lg-2">
+
+            </div>
+            <!-- Content -->
+            <div class="col-lg-10 content-post">
+                <!-- Start post status -->
+                <div class="calendar-embedded">
+                    <iframe src="calendar.html" frameborder="0"></iframe>
+                </div>
+            </div>
+            <!-- Phần pop up của tạo group -->
+            <div class="modal fade" id="exampleModalToggle3" aria-hidden="true"
+                aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Create Group</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="">
+                                <!-- đoạn này chú ý user nào thì để name theo user đấy mưới sử dụng được radio nếu để trùng tên radio sẽ ko nhận ,  0 là trạng thái ban, 1 là trạng thái đẩy lên làm admin-->
+                                <div>
+                                    <label for="name" style="font-weight: 700;">Group
+                                        Name</label><br>
+                                    <input class="input-edit-group" type="text" placeholder="name" name="groupname">
+                                </div>
+                                <div>
+                                    <label for="name" style="font-weight: 700; margin-top: 10px;">Image</label><br>
+                                    <input class="input-edit-group" type="url" placeholder="image-url" name="groupname">
+                                </div>
+                                <div>
+                                    <label for="name" style="font-weight: 700; margin-top: 10px;">Introduce</label><br>
+                                    <textarea class="input-edit-group" id="largeText" name="largeText" rows="10"
+                                        cols="40" placeholder="introduce..."></textarea>
+                                </div>
+
+
+                                <div class="modal-footer">
+                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
+                                        data-bs-toggle="modal">Create</button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                                <form action="creategroup" method="POST">                                   
+                                    <div>
+                                        <label for="groupname" style="font-weight: 700;">Group Name</label><br>
+                                        <input class="input-edit-group" type="text" placeholder="name" name="groupname" required>
+                                    </div>
+                                    <div>
+                                        <label for="imageurl" style="font-weight: 700; margin-top: 10px;">Image</label><br>
+                                        <input class="input-edit-group" type="url" placeholder="image-url" name="imageurl" required>
+                                    </div>
+                                    <div>
+                                        <label for="backgroundurl" style="font-weight: 700; margin-top: 10px;">Background</label><br>
+                                        <input class="input-edit-group" type="url" placeholder="background-url" name="backgroundurl" required>
+                                    </div>
+                                    <div>
+                                        <label for="introduction" style="font-weight: 700; margin-top: 10px;">Introduce</label><br>
+                                        <textarea class="input-edit-group" id="introduction" name="introduction" rows="10" cols="40" placeholder="introduce..." required></textarea>
+                                    </div>
+                                    <div>
+                                        <label for="groupType" class="input-label"  style="font-weight: 700; margin-top: 10px;">Group Type</label><br>
+                                        <input type="radio" name="groupType" value="0" required> 
+                                        <span style="color: black; margin-right: 80px;">Public</span>
+                                        <input type="radio" name="groupType" value="1"> 
+                                        <span style="color: black;">Private</span>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="submit" class="btn btn-primary">Create</button>
+                                    </div>
+                                </form>
+                            </div>
+
+            <!-- Phần pop up của chọn group -->
+            <div class="modal fade" id="exampleModalToggle4" aria-hidden="true"
+                aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Choose Group</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body  choose-group-item">
+                            <div><a href="" class="body-content-left-avatar"><img src="img/avatargroup1.jpg">Nguyen Family</a></div>
+                            
+                        </div>
+                        <div class="modal-body  choose-group-item">
+                            <div><a href="" class="body-content-left-avatar"><img src="img/avatargroup1.jpg">Nguyen Family</a></div>
+                            
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+
+
+
+
+    </div>
+    <!-- jquery-->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Imagesloaded js -->
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <!-- Validator js -->
+    <script src="js/validator.min.js"></script>
+    <!-- Custom Js -->
+    <script src="js/main.js"></script>
+    <script>
+        function toggleLike(btn) {
+            btn.classList.toggle('liked');
+        }
+        document.getElementById('link').addEventListener('click', function (event) {
+            var confirmation = confirm('Are you sure want to sign-out?');
+            if (!confirmation) {
+                event.preventDefault(); // Ngăn chặn chuyển hướng mặc định của thẻ a
+            }
+        });
+    </script>
+
+</body>
+
+
+<!-- Mirrored from affixtheme.com/html/xmee/demo/register-22.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Jan 2024 17:00:34 GMT -->
+
+</html>

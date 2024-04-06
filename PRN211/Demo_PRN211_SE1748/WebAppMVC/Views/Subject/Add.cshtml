@@ -1,0 +1,13 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using WebAppMVC.Models
+@model Subjects
+<form asp-controller="Subject" asp-action="Add" method="post">
+    Code: <input type="text" asp-for="Code"/>
+    <span asp-validation-for="Code"></span> <br/>
+    Name: <input type="text" asp-for="Name"/>
+    <span asp-validation-for="Name"></span><br />
+    Slot: <input type="text" asp-for="Slot" />
+    <span asp-validation-for="Slot"></span><br />
+    <input type="submit" name="" value="ADD" /><br />
+
+</form>

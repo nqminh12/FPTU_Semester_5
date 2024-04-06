@@ -1,0 +1,82 @@
+E:\Code_C#\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.exe
+E:\Code_C#\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.deps.json
+E:\Code_C#\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.runtimeconfig.json
+E:\Code_C#\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.dll
+E:\Code_C#\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.pdb
+E:\Code_C#\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.Form1.resources
+E:\Code_C#\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.csproj.GenerateResource.cache
+E:\Code_C#\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code_C#\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.AssemblyInfoInputs.cache
+E:\Code_C#\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.AssemblyInfo.cs
+E:\Code_C#\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.csproj.CoreCompileInputs.cache
+E:\Code_C#\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.dll
+E:\Code_C#\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\refint\Question1.dll
+E:\Code_C#\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.pdb
+E:\Code_C#\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.genruntimeconfig.cache
+E:\Code_C#\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\ref\Question1.dll
+E:\Code_C#\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.Form2.resources
+C:\Users\tungl\OneDrive\Máy tính\Summer23\PRN_tryhard\PE_PRN211_23_GivenSolution\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.exe
+C:\Users\tungl\OneDrive\Máy tính\Summer23\PRN_tryhard\PE_PRN211_23_GivenSolution\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.deps.json
+C:\Users\tungl\OneDrive\Máy tính\Summer23\PRN_tryhard\PE_PRN211_23_GivenSolution\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.runtimeconfig.json
+C:\Users\tungl\OneDrive\Máy tính\Summer23\PRN_tryhard\PE_PRN211_23_GivenSolution\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.dll
+C:\Users\tungl\OneDrive\Máy tính\Summer23\PRN_tryhard\PE_PRN211_23_GivenSolution\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.pdb
+C:\Users\tungl\OneDrive\Máy tính\Summer23\PRN_tryhard\PE_PRN211_23_GivenSolution\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.csproj.AssemblyReference.cache
+C:\Users\tungl\OneDrive\Máy tính\Summer23\PRN_tryhard\PE_PRN211_23_GivenSolution\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.Form1.resources
+C:\Users\tungl\OneDrive\Máy tính\Summer23\PRN_tryhard\PE_PRN211_23_GivenSolution\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.csproj.GenerateResource.cache
+C:\Users\tungl\OneDrive\Máy tính\Summer23\PRN_tryhard\PE_PRN211_23_GivenSolution\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tungl\OneDrive\Máy tính\Summer23\PRN_tryhard\PE_PRN211_23_GivenSolution\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.AssemblyInfoInputs.cache
+C:\Users\tungl\OneDrive\Máy tính\Summer23\PRN_tryhard\PE_PRN211_23_GivenSolution\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.AssemblyInfo.cs
+C:\Users\tungl\OneDrive\Máy tính\Summer23\PRN_tryhard\PE_PRN211_23_GivenSolution\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.csproj.CoreCompileInputs.cache
+C:\Users\tungl\OneDrive\Máy tính\Summer23\PRN_tryhard\PE_PRN211_23_GivenSolution\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.dll
+C:\Users\tungl\OneDrive\Máy tính\Summer23\PRN_tryhard\PE_PRN211_23_GivenSolution\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\refint\Question1.dll
+C:\Users\tungl\OneDrive\Máy tính\Summer23\PRN_tryhard\PE_PRN211_23_GivenSolution\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.pdb
+C:\Users\tungl\OneDrive\Máy tính\Summer23\PRN_tryhard\PE_PRN211_23_GivenSolution\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.genruntimeconfig.cache
+C:\Users\tungl\OneDrive\Máy tính\Summer23\PRN_tryhard\PE_PRN211_23_GivenSolution\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\ref\Question1.dll
+E:\Code_C#\PE\DOne\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.exe
+E:\Code_C#\PE\DOne\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.deps.json
+E:\Code_C#\PE\DOne\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.runtimeconfig.json
+E:\Code_C#\PE\DOne\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.dll
+E:\Code_C#\PE\DOne\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.pdb
+E:\Code_C#\PE\DOne\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.Form1.resources
+E:\Code_C#\PE\DOne\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.csproj.GenerateResource.cache
+E:\Code_C#\PE\DOne\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code_C#\PE\DOne\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.AssemblyInfoInputs.cache
+E:\Code_C#\PE\DOne\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.AssemblyInfo.cs
+E:\Code_C#\PE\DOne\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.csproj.CoreCompileInputs.cache
+E:\Code_C#\PE\DOne\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.dll
+E:\Code_C#\PE\DOne\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\refint\Question1.dll
+E:\Code_C#\PE\DOne\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.pdb
+E:\Code_C#\PE\DOne\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.genruntimeconfig.cache
+E:\Code_C#\PE\DOne\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\ref\Question1.dll
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.exe
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.deps.json
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.runtimeconfig.json
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.dll
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.pdb
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.Form1.resources
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.csproj.GenerateResource.cache
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.AssemblyInfoInputs.cache
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.AssemblyInfo.cs
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.csproj.CoreCompileInputs.cache
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.dll
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\refint\Question1.dll
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.pdb
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.genruntimeconfig.cache
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\ref\Question1.dll
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_PESP23_B5_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.exe
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_PESP23_B5_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.deps.json
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_PESP23_B5_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.runtimeconfig.json
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_PESP23_B5_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.dll
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_PESP23_B5_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.pdb
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_PESP23_B5_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.Form1.resources
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_PESP23_B5_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.csproj.GenerateResource.cache
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_PESP23_B5_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_PESP23_B5_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.AssemblyInfoInputs.cache
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_PESP23_B5_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.AssemblyInfo.cs
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_PESP23_B5_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.csproj.CoreCompileInputs.cache
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_PESP23_B5_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.dll
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_PESP23_B5_GivenSolution\Question1\obj\Debug\net6.0-windows\refint\Question1.dll
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_PESP23_B5_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.pdb
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_PESP23_B5_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.genruntimeconfig.cache
+E:\Code_C#\PE\PRN211_PESP23_B5_199075\PE_PRN211_PESP23_B5_GivenSolution\Question1\obj\Debug\net6.0-windows\ref\Question1.dll

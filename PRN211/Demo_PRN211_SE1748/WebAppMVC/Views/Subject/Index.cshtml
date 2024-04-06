@@ -1,0 +1,41 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    //Viết code C#-Block code C#X
+    String message = "Welcome to Razor page!";
+}
+
+@using WebAppMVC.Models
+@model List<Subjects>
+
+@message
+<br />
+@ViewBag.message
+<br />
+Code:@ViewBag.subject.Code
+<br />
+Name:@ViewBag.subject.Name
+<br />
+Slot:@ViewBag.subject.Slot
+
+<br/> <a asp-controller="Subject" asp-action="Add">Add new subject</a>
+<br />List subject:
+<table border="1">
+    <tr>
+    <td>Code</td>
+    <td>Name</td>
+    <td>Slot</td>
+    <td>Delete</td>
+    </tr>
+    @foreach (Subjects item in Model)
+    {
+        <tr>
+            <td><a asp-controller="Subject" asp-action="Update" asp-route-code="@item.Code">@item.Code</a></td>
+            <td>@item.Name</td>
+            <td>@item.Slot</td>
+            <td><a asp-controller="Subject" asp-action="Delete" asp-route-code="@item.Code">Delete</a></td>
+        </tr>
+    }
+</table>

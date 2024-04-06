@@ -1,0 +1,38 @@
+﻿Trần Quang Tùng
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using WebApp_EF.Models
+@model Product
+
+<form asp-controller="Product" asp-action="Update" method="post">
+    ProductId: <input type="text" asp-for="ProductId" />
+    <span asp-validation-for="ProductId"></span>
+    <br />
+    ProductName: <input type="text" asp-for="ProductName" />
+    <span asp-validation-for="ProductName"></span>
+    <br />
+    UnitPrice: <input type="text" asp-for="UnitPrice" />
+    <span asp-validation-for="UnitPrice"></span>
+    </br>
+    UnitsInStock: <input type="text" asp-for="UnitsInStock" />
+    <span asp-validation-for="UnitsInStock"></span>
+    Image: <input type="text" asp-for="Image" />
+    <span asp-validation-for="Image"></span>
+    </br>
+    Category:
+    <select asp-for="CategoryId">
+        <option value="0">All category</option>
+        @foreach (Category c in ViewBag.Categories)
+        {
+            @if (c.CategoryId == ViewBag.selectedId)
+            {
+                <option value="@c.CategoryId" selected>@c.CategoryName</option>
+            }
+            else
+            {
+                <option value="@c.CategoryId">@c.CategoryName</option>
+            }
+        }
+    </select>
+    <br />
+    <input type="submit" value="UPDATE" /><br />
+</form>

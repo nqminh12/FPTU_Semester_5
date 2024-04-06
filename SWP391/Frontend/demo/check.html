@@ -1,0 +1,163 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+
+<!-- Mirrored from affixtheme.com/html/xmee/demo/register-22.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Jan 2024 17:00:34 GMT -->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>SCN | Home</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Fontawesome CSS -->
+  <link rel="stylesheet" href="css/fontawesome-all.min.css">
+  <!-- Flaticon CSS -->
+  <link rel="stylesheet" href="font/flaticon.css">
+  <!-- Star Animation CSS -->
+  <link rel="stylesheet" href="css/star-animation.css">
+  <!-- Google Web Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/check.css">
+  <style>
+    .event-create-pop-up input,
+    .event-create-pop-up textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      transition: border-color 0.3s, box-shadow 0.3s;
+      background-color: rgba(128, 128, 128, 0.18);
+    }
+
+    /* Input Focus Style */
+    .event-create-pop-up input:focus,
+    .event-create-pop-up textarea:focus {
+      border-color: #66afe9;
+      box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+    }
+
+    /* Textarea Style */
+    .event-create-pop-up textarea {
+      resize: vertical;
+    }
+
+    /* Label Style */
+    .event-create-pop-up label {
+      font-weight: bold;
+      margin-top: 0px;
+      margin-bottom: 10px;
+
+    }
+
+
+    .event-create-pop-up .button-create {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .input-event-fre-re {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px 0px;
+
+    }
+
+    select {
+      border-radius: 2px;
+      border: 1px solid #ccc;
+      background-color: rgba(128, 128, 128, 0.18);
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <div class="modal fade" id="addevent" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <form action="">
+          <div class="modal-body event-create-pop-up" style="margin: 0px;">
+            <label for="">Event</label>
+            <input type="text" name="" id="" placeholder="Add title">
+            <label for="">Date</label>
+            <select name="" id="">
+              <option value="">solar</option>
+              <option value="">lunar</option>
+            </select>
+            <input type="date" name="" id="">
+            <div class="input-event-fre-re">
+              <div><label for="">Frequency</label>
+                <select name="" id="">
+                  <option value="">1 time</option>
+                  <option value="">many times</option>
+                </select>
+              </div>
+              <div><label for="">Remind1st</label>
+                <select name="" id="">
+                  <option value="">none</option>
+                  <option value="">before 1 day</option>
+                  <option value="">before 2 day</option>
+                  <option value="">before 3 day</option>
+                </select>
+              </div>
+              <div><label for="">Remind2nd</label>
+                <select name="" id="">
+                  <option value="">none</option>
+                  <option value="">before 1 day</option>
+                  <option value="">before 2 day</option>
+                  <option value="">before 3 day</option>
+                </select>
+              </div>
+            </div>
+            <label for="">Place</label>
+            <input type="text" name="" id="" placeholder="Add place">
+            <label for="">Description</label>
+            <textarea class="input-edit-group" id="largeText" name="largeText" rows="6"
+              cols="60"></textarea>
+            <div class="button-create">
+              <a href="home.html" class="btn btn-danger">Cancel</a>
+              <a href="home.html" class="btn btn-primary">Create</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div><button class="btn btn-warning" data-bs-target="#addevent" data-bs-toggle="modal">Create even</button></div>
+  <!-- jquery-->
+  <script src="js/jquery.min.js"></script>
+  <!-- Bootstrap js -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Imagesloaded js -->
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <!-- Validator js -->
+  <script src="js/validator.min.js"></script>
+  <!-- Custom Js -->
+  <script src="js/main.js"></script>
+  <script>
+    function toggleLike(btn) {
+      btn.classList.toggle('liked');
+    }
+    document.getElementById('link').addEventListener('click', function (event) {
+      var confirmation = confirm('Are you sure want to sign-out?');
+      if (!confirmation) {
+        event.preventDefault(); // Ngăn chặn chuyển hướng mặc định của thẻ a
+      }
+    });
+  </script>
+
+</body>
+
+
+<!-- Mirrored from affixtheme.com/html/xmee/demo/register-22.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Jan 2024 17:00:34 GMT -->
+
+</html>

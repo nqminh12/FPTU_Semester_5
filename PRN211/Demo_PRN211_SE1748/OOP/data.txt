@@ -1,0 +1,15 @@
+T01	Nguyen Van A	6000000	0
+T02	Nguyen Van B	550000	1
+T03	Nguyen Van C	4000000	0
+T06	Nguyen Van D	600000	1
+T07	Nguyen Van E	500000	1
+T05	Nguyen Van T	2000000	0
+T04	Nguyen Van F	350000	1
+
+T04	Nguyen Van F	350000	1
+
+
+
+T09	Nguyen Van F	350000	1
+T010	Nguyen Van F	350000	1
+T011	Nguyen Van F	350000	10
